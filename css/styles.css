@@ -12,15 +12,20 @@ body {
 .list {
     list-style: none;
 }
-/* logo */
-.logo {
+/* Logo */
+.logo-header, .logo-footer {
     text-decoration: none;
-    color: #000000;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+.logo-header {
+    color: #000000;
+}
+.logo-footer {
+    color: #FFFFFF;
 }
 .logo-web {
     color: var(--accent-text-color);
@@ -111,14 +116,7 @@ height: 600px;
     background-color: #2F303A;
     color: #FFFFFF;
 }
-.logo-footer {
-        text-decoration: none;
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-}
+
 .footer-address, .footer-contacts {
     font-family: 'Roboto';
     font-style: normal;
