@@ -5,49 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <a href="./index.html">WebStudio</a>
+    <header class="header">
+      <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
       <nav>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="menu-nav list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts list">
+        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
-    <main class="works">
+    <main>
       <section>
         <h1>Примеры наших работ</h1>
       </section>
 
-      <section class="filter-buttons">
+      <section class="list-works">
         <ul>
           <li>
-            <input type="text">
-            <input type="button" class="button">Все</type>
+            <button type="button">Все</button>
           </li>
           <li>
-            <input type="button" class="button">Веб-сайты</type>
+            <button type="button">Веб-сайты</button>
           </li>
           <li>
-            <input type="button" class="button">Приложения</type>
+            <button type="button">Приложения</button>
           </li>
           <li>
-            <input type="button" class="button">Дизайн</type>
+            <button type="button">Дизайн</button>
           </li>
           <li>
-            <input type="button" class="button">Маркетинг</type>
+            <button type="button">Маркетинг</button>
           </li>
         </ul>
-      </section>
-      <section class="list-works">
+
         <ul>
           <li>
             <img src="./images/1.jpg" alt="Технокряк" width="370" />
@@ -55,7 +57,11 @@
             <p>Веб-сайт</p>
           </li>
           <li>
-            <img src="./images/2.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
+            <img
+              src="./images/2.jpg"
+              alt="Постер New Orlean vs Golden Star"
+              width="370"
+            />
             <h2>Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
           </li>
@@ -75,12 +81,20 @@
             <p>Приложение</p>
           </li>
           <li>
-            <img src="./images/6.jpg" alt="Inspiration has no Borders" width="370" />
+            <img
+              src="./images/6.jpg"
+              alt="Inspiration has no Borders"
+              width="370"
+            />
             <h2>Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
-            <img src="./images/7.jpg" alt="Издание Limited Edition" width="370" />
+            <img
+              src="./images/7.jpg"
+              alt="Издание Limited Edition"
+              width="370"
+            />
             <h2>Издание Limited Edition</h2>
             <p>Дизайн</p>
           </li>
@@ -99,7 +113,7 @@
     </main>
 
     <footer>
-      <a href="">WebStudio</a>
+      <a href="./index.html">WebStudio</a>
       <address>
         <ul>
           <li>

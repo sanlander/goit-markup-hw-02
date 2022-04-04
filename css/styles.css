@@ -1,0 +1,130 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --second-text-color: #757575;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color)
+}
+
+.list {
+    list-style: none;
+}
+/* logo */
+.logo {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-web {
+    color: var(--accent-text-color);
+}
+
+/* Menu nav + Contacts*/
+.menu-nav .link, .contacts .link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.menu-nav .link:hover, .menu-nav .link:focus, .contacts .link:hover, .contacts .link:focus {
+    color: var(--accent-text-color);
+}
+.contacts .link {
+color: var(--second-text-color);
+}
+
+/* Herro */
+.herro {
+background-image: url(../images/hero.jpg);
+width: 100%;
+height: 600px;
+}
+.herro-title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Feature */
+.feature-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.feature-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+/* Our-work */
+.our-work-title, .team-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Our-team */
+.our-team {
+    background-color: #F5F4FA;
+}
+.full-name, .position {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.position {
+    color: var(--second-text-color);
+    font-weight: 400;
+}
+
+/* Footer */
+.footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.logo-footer {
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+.footer-address, .footer-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
