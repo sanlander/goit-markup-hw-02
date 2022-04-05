@@ -132,6 +132,7 @@ height: 600px;
 .button-filter {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -144,10 +145,10 @@ height: 600px;
 }
 
 .button-order {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
