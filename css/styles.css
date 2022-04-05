@@ -153,6 +153,10 @@ text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--accent-background-color);
+    cursor: pointer;
+}
+.button-order:hover, .button-order:focus {
+    background-color: #188CE8;
 }
 
 /* Footer */
