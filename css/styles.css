@@ -68,15 +68,19 @@ text-align: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 /* Feature */
 .feature-title {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .feature-text {
+    font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
@@ -103,6 +107,7 @@ text-align: center;
     letter-spacing: 0.03em;
 }
 .post {
+    font-weight: 400;
     color: var(--second-text-color);
 }
 
