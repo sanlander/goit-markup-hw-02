@@ -157,7 +157,7 @@ height: 600px;
 }
 
 /* Button */
-.button {
+.button-filter {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
     font-weight: 500;
@@ -166,14 +166,19 @@ height: 600px;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.button.accent {
-color: #FFFFFF;
-background-color: var(--accent-background-color);
+.button-filter:hover, .button-filter:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-background-color);
 }
-.herro.accent {
+
+.button-order {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    display: flex;
     align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-background-color);
 }
