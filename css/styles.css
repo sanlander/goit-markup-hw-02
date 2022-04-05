@@ -2,11 +2,13 @@
     --primary-text-color: #212121;
     --accent-text-color: #2196F3;
     --second-text-color: #757575;
+    --primary-background-color: #FFFFFF;
+    --accent-background-color: #2196F3;
 }
 
 body {
     font-family: 'Roboto';
-    background-color: #FFFFFF;
+    background-color: var(--primary-background-color);
     color: var(--primary-text-color)
 }
 
@@ -149,4 +151,17 @@ height: 600px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
+}
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.button.accent {
+color: #FFFFFF;
+background-color: var(--accent-background-color);
 }
