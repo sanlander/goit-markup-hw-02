@@ -99,42 +99,18 @@ height: 600px;
 .our-team {
     background-color: #F5F4FA;
 }
-.full-name, .position {
+.full-name, .post {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.position {
+.post {
     color: var(--second-text-color);
     font-weight: 400;
 }
 
-/* Footer */
-.footer {
-    background-color: #2F303A;
-    
-}
-
-.address {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    
-}
-.footer-address {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.footer-contacts {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
-    
-}
 
 /* Portfolio */
 .work-examples {
@@ -181,4 +157,25 @@ height: 600px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--accent-background-color);
+}
+
+/* Footer */
+.footer {
+    background-color: #2F303A;
+}
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-address {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-contacts {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+
 }
