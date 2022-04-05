@@ -38,12 +38,15 @@ body {
 .menu-nav .link, .contacts .link {
     text-decoration: none;
     color: var(--primary-text-color);
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.menu-nav .link.current {
+    color: var(--accent-text-color);
+}
+
 .menu-nav .link:hover, .menu-nav .link:focus, .contacts .link:hover, .contacts .link:focus {
     color: var(--accent-text-color);
 }
@@ -52,7 +55,7 @@ color: var(--second-text-color);
 }
 
 /* Herro */
-.herro {
+.section-herro {
 background-image: url(../images/hero.jpg);
 width: 100%;
 height: 600px;
@@ -152,6 +155,8 @@ height: 600px;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
+
+/* Button */
 .button {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
@@ -164,4 +169,11 @@ height: 600px;
 .button.accent {
 color: #FFFFFF;
 background-color: var(--accent-background-color);
+}
+.herro.accent {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
 }
