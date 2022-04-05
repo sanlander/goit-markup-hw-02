@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: 'Roboto';
     background-color: #FFFFFF;
     color: var(--primary-text-color)
 }
@@ -36,7 +37,6 @@ body {
     text-decoration: none;
     color: var(--primary-text-color);
 
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -56,7 +56,6 @@ width: 100%;
 height: 600px;
 }
 .herro-title {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -68,7 +67,6 @@ height: 600px;
 
 /* Feature */
 .feature-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -76,7 +74,6 @@ height: 600px;
     text-transform: uppercase;
 }
 .feature-text {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -86,7 +83,6 @@ height: 600px;
 
 /* Our-work */
 .our-work-title, .team-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -99,7 +95,6 @@ height: 600px;
     background-color: #F5F4FA;
 }
 .full-name, .position {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -118,7 +113,6 @@ height: 600px;
 }
 
 .address {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -132,6 +126,27 @@ height: 600px;
 }
 
 .footer-contacts {
-    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+/* Portfolio */
+.work-examples {
+    text-decoration: none;
+   }
+
+.work-examples-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.work-examples-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
 }
